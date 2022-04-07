@@ -1,0 +1,30 @@
+.sidebarrow{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.sidebarrow_icon{
+    color:grey;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.sidebarrow_title{
+    font-weight: 500px;
+    font-size: 12px;
+    margin-left: 20px;
+    flex: 1;
+}
+.sidebarrow:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.sidebarrow:hover > .sidebarrow_icon{
+    color: red;
+}
+.sidebarrow:hover > .sidebarrow_title{
+    font-weight: bold;
+}
+
+.sidebarrow.selected{
+    background-color: lightgrey;
+}

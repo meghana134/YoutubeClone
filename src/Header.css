@@ -1,0 +1,88 @@
+.header{
+    
+    position: sticky;
+    margin-top: -18px;
+    z-index: 100;
+    background-color: white;
+    /* border: 2px solid red; */
+}
+.header_logo{
+    height: 35px;
+    width: 80px;
+    margin-left: 5px;
+    /* margin-top: 15px; */
+    padding-top: 10px;
+}
+.header_left .menu_icon{
+    height: 25px;
+    width: 55px;
+    margin-top: 5px;
+    padding-top: -5px;
+    margin-left: -3px;
+    padding-bottom: 4px;
+    
+
+}
+
+.header{
+    display: flex;
+    /* DISPLAY FLEX ALLIGNS ALL THE ELEMENTS IN A SINGLE ROW */
+    align-items: center;
+    justify-content: space-between;
+}
+.header_input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+    
+}
+.header_right{
+    margin-right: 12px;
+}
+.header_v{
+    margin-right: 35px;
+    cursor: pointer;
+}
+.header_a{
+    padding-right: 27px;
+    margin-left: -23px;
+    cursor: pointer;
+}
+.header_n{
+    margin-right: 44px;
+    margin-left: -16px;
+    cursor: pointer;
+}
+.header_ac{
+    margin-right:0px ;
+    margin-left: -29px;
+    cursor: pointer;
+}
+.mic{
+    cursor: pointer;
+}
+
+
+
+.header_input > input{
+    flex: 2;
+    border: none;
+}
+.header_left{
+    margin-top: 10px;
+}
+.input_searchbutton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    color: gray;
+    cursor: pointer;
+}
