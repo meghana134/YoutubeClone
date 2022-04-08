@@ -1,28 +1,33 @@
-
-import './App.css';
-import Header from './Header';
-import Sidebar from './Sidebar';
-import Recmended from './Recmended';
+import "./App.css";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
+import Recmended from "./Recmended";
+import { BrowserRouter, Switch, Route, Routes } from "react-router-dom";
+import SearchPage from "./SearchPage";
 
 function App() {
   return (
     <div className="App">
-      {/* <h1>Youtube clone</h1> */}
-      <Header/>
-      
-      <div className="app_page">
-      <Sidebar/>
-      <Recmended/>
+      <BrowserRouter>
+      <Header />
+        <switch>
+         
 
-      </div>
-      
-      
-
-
-      {/* 3 COMPONENTS */}
-      {/* HEADER */}
-      {/* SIDEBAR */}
-      {/* RECMONDED */}
+          <Route path="/search/:searchTerm">
+            
+            <div className="app_page">
+              <Sidebar />
+              <SearchPage/>
+            </div>
+          </Route>
+          <Route exact path="/">
+            <div className="app_page">
+              <Sidebar />
+              <Recmended />
+            </div>
+          </Route>
+        </switch>
+      </BrowserRouter>
     </div>
   );
 }

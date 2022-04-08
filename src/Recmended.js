@@ -7,7 +7,7 @@ function Recmended() {
         <div className='recmend'>
             <h2> Recommended </h2>
             <div className="recommendedvideos_videos">
-                <VideoCard
+                <VideoCard style={{width:"300",height:"200"}}
                     title="5 reasons why nikat is the best roomate"
                     views="2.6M views"
                     timestamp="3 days ago"
