@@ -18,6 +18,7 @@ function Header() {
         <div className='header'>
             <div className="header_left">
                 <MenuSharpIcon className='menu_icon'/>
+                {/* on click on youtube icon, it will take to homepage */}
                 <Link to="/">
                 <img
                     className='header_logo'
@@ -27,7 +28,9 @@ function Header() {
 
 
             <div className="header_input">
+            
                 <input onChange={event=> setInputSearch(event.target.value)} value={inputSearch} placeholder=" Search"type="text" />
+                {/* to chnage the url dynamically */}
                 <Link to={`/search/${inputSearch}`}>
                 <SearchIcon className='input_searchbutton'/>
                 </Link>
