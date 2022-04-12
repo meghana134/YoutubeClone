@@ -31,6 +31,62 @@ function SearchPage() {
         title="Build Youtube clone using react fro beginners"
         image="https://en.pimg.jp/043/493/183/1/43493183.jpg"
       />
+      <VideoRow
+        views="1.55M"
+        subs="595K"
+        description="Do you want to learn js free"
+        timestamp="2weeks ago"
+        channel="CodeWith harry"
+        title="Build Youtube clone using react fro beginners"
+        image="https://thumbs.dreamstime.com/z/holding-earth-green-tree-hands-world-environment-day-concept-saving-growing-young-tree-element-image-furnished-74844293.jpg"
+      />
+        <VideoRow
+        views="1.55M"
+        subs="595K"
+        description="Do you want to learn js free"
+        timestamp="2weeks ago"
+        channel="CodeWith harry"
+        title="Build Youtube clone using react fro beginners"
+        image="https://thumbs.dreamstime.com/z/holding-earth-green-tree-hands-world-environment-day-concept-saving-growing-young-tree-element-image-furnished-74844293.jpg"
+      />
+        <VideoRow
+        views="1.55M"
+        subs="595K"
+        description="Do you want to learn js free"
+        timestamp="2weeks ago"
+        channel="CodeWith harry"
+        title="Build Youtube clone using react fro beginners"
+        image="https://thumbs.dreamstime.com/z/holding-earth-green-tree-hands-world-environment-day-concept-saving-growing-young-tree-element-image-furnished-74844293.jpg"
+      />
+        <VideoRow
+        views="1.55M"
+        subs="595K"
+        description="Do you want to learn js free"
+        timestamp="2weeks ago"
+        channel="CodeWith harry"
+        title="Build Youtube clone using react fro beginners"
+        image="https://thumbs.dreamstime.com/z/holding-earth-green-tree-hands-world-environment-day-concept-saving-growing-young-tree-element-image-furnished-74844293.jpg"
+      />
+
+<VideoRow
+        views="1.55M"
+        subs="595K"
+        description="Do you want to learn js free"
+        timestamp="2weeks ago"
+        channel="CodeWith harry"
+        title="Build Youtube clone using react fro beginners"
+        image="https://thumbs.dreamstime.com/z/holding-earth-green-tree-hands-world-environment-day-concept-saving-growing-young-tree-element-image-furnished-74844293.jpg"
+      />
+        <VideoRow
+        views="1.55M"
+        subs="595K"
+        description="Do you want to learn js free"
+        timestamp="2weeks ago"
+        channel="CodeWith harry"
+        title="Build Youtube clone using react fro beginners"
+        image="https://thumbs.dreamstime.com/z/holding-earth-green-tree-hands-world-environment-day-concept-saving-growing-young-tree-element-image-furnished-74844293.jpg"
+      />
+      
     </div>
   );
 }
